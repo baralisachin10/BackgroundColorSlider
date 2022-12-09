@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: relative;
+    transition: all 0.3s linear;
+    /* animation: all 0.3s linear; */
+
+}
+
+
+.container button{
+    background-color: rgb(255, 106, 0);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.container .left-btn{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%)
+}
+
+.container .right-btn{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%)
+}
